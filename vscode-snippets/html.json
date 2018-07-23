@@ -1,0 +1,9 @@
+{
+  "u-icon": {
+    "description": "UIcon",
+		"prefix": "u-icon",
+		"body": [
+      "<UIcon :type=\"${1:load-c}\" size=\"${1:14}\" color=\"${1:#000}\" />"
+    ]
+  }
+}

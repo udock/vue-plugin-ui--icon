@@ -1,0 +1,22 @@
+{
+  "name": "@udock/vue-plugin-ui--icon",
+  "description": "@udock/vue-plugin-ui--icon",
+  "private": true,
+  "version": "0.0.1",
+  "main": "dist/index.umd.js",
+  "files": [
+    "dist",
+    "src/scss",
+    "src/fonts",
+    "vscode-snippets"
+  ],
+  "scripts": {
+    "build": "@udock/build-tools webpack sass"
+  },
+  "peerDependencies": {
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "@udock/build-tools": "^0.0.1"
+  }
+}
