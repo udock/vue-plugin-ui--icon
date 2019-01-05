@@ -11,12 +11,12 @@
     "vscode-snippets"
   ],
   "scripts": {
-    "build": "@udock/build-tools webpack sass"
+    "build": "udock-build-tools webpack sass"
   },
   "peerDependencies": {
     "lodash": "^4.17.4"
   },
   "devDependencies": {
-    "@udock/build-tools": "^0.0.1"
+    "@udock/build-tools": "^0.0.2"
   }
 }
